@@ -1,0 +1,16 @@
+Why API testing?--------------
+
+API- Application Programming interface.
+It allows to communicate between frontend and backend over internet.
+Four types fopr API's- public, partner, internal and composiote API's.
+API Protocols and architecture- RPC, SOAP and REST.
+SOAP VS REST------------------------
+SOAP- is a protocol, we have to follow that to create a SOAP API while REST- is a architecture style, we can modify as per our use.
+SOAP use XML format which means its will have envelope, body and the method Which REST uses JSON, XML, Plain text and HTML, so it will be very short to create REST api.
+SOAP have more resources that's why it uses more bandwidth and the REST have less resources so it uses low bandwith to communicate.
+SOAP APi can't be cacheable while REST API is cacheable.
+Stateless VS Statefull applications------------------
+In stateless- a session id has been stored at the server after authentication and that session id will validate at every request.
+If the user have multiple request then multiple session id will be generated.
+In Stateful- a token has been generated after authentication and the toklen will be saved into database, the token will verified for every request from database by requested server. To overcome this, the token will be stored in the cache of the browser, so the server will not be engage to fetch the token for every request.
+
