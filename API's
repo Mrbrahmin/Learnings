@@ -1,5 +1,5 @@
 Why API testing?--------------
-
+Testing the API is the most important part of any app, in API testing we actually testing the business logic of the application.
 API- Application Programming interface.
 It allows to communicate between frontend and backend over internet.
 Four types fopr API's- public, partner, internal and composiote API's.
@@ -13,4 +13,44 @@ Stateless VS Statefull applications------------------
 In stateless- a session id has been stored at the server after authentication and that session id will validate at every request.
 If the user have multiple request then multiple session id will be generated.
 In Stateful- a token has been generated after authentication and the toklen will be saved into database, the token will verified for every request from database by requested server. To overcome this, the token will be stored in the cache of the browser, so the server will not be engage to fetch the token for every request.
-
+What to test in the API's?------------
+-- Functioanl
+--Integration
+--Regression testing
+--Security
+--Load testing
+--Penetration testing
+--Fuzz testing- discover coding errors
+HTTP Fundamental------------------
+--Client
+--Server
+HTTPS Status Code---
+200
+301
+400
+500
+401
+502
+402 etc..
+HTTP Methods-----------(CRUD)
+--GET--> To get the information from server
+--POST--> To create some info ion server.
+--PUT--> to modify full resource on the server for any particular user.
+--DELETE--> To delete some resource from server.
+--PATCH--> to partial update the resource from the server.
+>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+------------------POSTMAN BASICS-----------------
+WorkSpace--> means a different sandbox to work on the API, it can be vissible as team or personal.
+Collections--> means a group of different requests.
+JSON--> JavaScript Object Notation
+Authorization--> used to authorize to access the API.
+Header-->> Meta information or Key Value pair sent to the server.
+BODY--> contains the data which is sent to the server.
+Pre Request Script--> means what will be the pre requested things we need to setup before sending any request, its a javascript code which is used to define the prerequisite of the request.
+POSTMAN Console-->> is logged every request whcih we are sending to the server, its user for debugging.
+Monitor Collection-->> is uesed to run the collection of API to a sheduled time, in this POSTMAN will get the code to its own server and run that collection on defined time.
+Authentication-----------------------
+--Baic Auth-BASE64(encoding the username or password in base64.)
+--Digest Auth--Username, password with encription.
+--Bearer Token--is a token which provide authentication by generating a token request in fprm of string, its use oauth2.0 authetication.
+--JWT tokens-- structured token.
