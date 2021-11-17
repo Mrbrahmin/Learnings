@@ -54,3 +54,13 @@ Authentication-----------------------
 --Digest Auth--Username, password with encription.
 --Bearer Token--is a token which provide authentication by generating a token request in fprm of string, its use oauth2.0 authetication.
 --JWT tokens-- structured token.
+
+>>>>>>>>>>>>>>>>>>>Test Sample API<<<<<<<<<<<<<<<<<<<<<<<
+Create a fake API--
+install node 
+install Json Server  (npm install -g json-server)
+create a db.json file 
+Start Json Server (json-server --watch db.json)
+access the db.json file from your browser (http://localhost:3000)
+
+
