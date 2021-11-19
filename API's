@@ -62,5 +62,15 @@ install Json Server  (npm install -g json-server)
 create a db.json file 
 Start Json Server (json-server --watch db.json)
 access the db.json file from your browser (http://localhost:3000)
+Dynamic Variable- mis used when we need to send random value to the server, it is noted by $.
+>>>>>>>>>Run Postman from cmd<<<<<<<<<<<
+Newman is uesd to access postman from cmd.
+--check whether node is install on the system.
+--Install newman (npm install -g newman)
+--Export the clooection need to execute from cmd
+-- newman run collectionFile.json
+
+<<<<<<<<<<<<WorkSpaces>>>>>>>>>>>>>>
+--is an area where you can group, organize or manage your collections, available in 6.0 version onwards.
 
 
